@@ -1,5 +1,5 @@
 //  Intersection Of Two Sorted Arrays
-//  Topics: Arrays,
+//  Topics: Sorting, Arrays, Two pointer
 //  Link: https://www.codingninjas.com/codestudio/problems/intersection-of-2-arrays_1082149?source=youtube&campaign=love_babbar_codestudio1&utm_source=youtube&utm_medium=affiliate&utm_campaign=love_babbar_codestudio1
 
 // Approach 1 :- traversing arr1 and arr2 looking for equal element and storing them in ans and storing
