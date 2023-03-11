@@ -31,11 +31,8 @@ bool checkInclusion(string s1, string s2)
     {
         if (s1hash == s2hash)
             return true;
-        if (right < s2.length())
-        {
-            s2hash[s2[right] - 'a']++;
-            right++;
-        }
+        s2hash[s2[right] - 'a']++;
+        right++;
         s2hash[s2[left] - 'a']--;
         left++;
     }
