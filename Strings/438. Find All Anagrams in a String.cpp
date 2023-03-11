@@ -2,7 +2,12 @@
 // https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
 
 // Approach: Sliding window, Two Pointers
-// First create a frequency hash of both the strings of smaller ones size(this will create your window which you will slide after). Then start traversing and add the right element into freq hash and decrement the left element from freq hash. And Compare both the hashes and store the left index in ans. Finally compare both hashes(because when right exceeds and left element freq is updated we need to compare once more) and return ans.
+// First create a frequency hash of both the strings of smaller ones size
+// (this will create your window which you will slide after).
+// Then start traversing and add the right element into freq hash and decrement the left element from freq hash.
+// And Compare both the hashes and store the left index in ans.
+// Finally compare both hashes(because when right exceeds and left element freq is updated we need to compare
+// once more) and return ans.
 
 // TC: O(N * 26)
 // SC: O(1)
