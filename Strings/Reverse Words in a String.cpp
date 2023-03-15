@@ -1,5 +1,5 @@
-// 151. Reverse Words in a String
-// https://leetcode.com/problems/reverse-words-in-a-string/description/
+151. Reverse Words in a String
+https://leetcode.com/problems/reverse-words-in-a-string/description/
 
 // Approach: First reverse whole string, then reverse each word by skipping spaces and words,
 // finally remove leading, extra and trailing spaces from the string by shifting the characters

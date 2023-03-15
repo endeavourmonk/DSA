@@ -1,5 +1,5 @@
-// 567. Permutation in String
-// https://leetcode.com/problems/permutation-in-string/description/
+567. Permutation in String
+https://leetcode.com/problems/permutation-in-string/description/
 
 // Approach: Sliding Window, Two Pointers
 // If the first string is larger then false.

@@ -1,5 +1,6 @@
-// 1910. Remove All Occurrences of a Substring
-// https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
+1910. Remove All Occurrences of a Substring
+https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
+
 // Approach: Start inserting from 0th ele of s into res, and if size of res exceeds m then
 // go back m steps and look if this substring is equal to part, if yes then decrement the j to m
 // index back and continue till the last of s.
