@@ -1,9 +1,9 @@
 1886. Determine Whether Matrix Can Be Obtained By Rotation
 https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/description/
 
-Approach: We need to check if the matrix is equal to the target after rotating 0, 90, 180 and 270 degrees. 
-TC: O(N^2)
-SC: O(1)
+// Approach: We need to check if the matrix is equal to the target after rotating 0, 90, 180 and 270 degrees. 
+// TC: O(N^2)
+// SC: O(1)
 
 bool findRotation(vector<vector<int>>& mat, vector<vector<int>>& target) {
         int sz = mat.size(), n = 3;
