@@ -3,13 +3,13 @@
 #include<vector>
 using namespace std;
 
-void printSubsequences(vector<int> &subseq, int arr[], int n, int ind){
+void printSubsequences(vector<int> &subseq, int arr[], int n, int ind) {
     if(ind == n){
-        if(subseq.size() == 0){
+        if(subseq.size() == 0) {
             cout << "[ ]";
             return;
         }
-        for(auto it : subseq){
+        for(auto it : subseq) {
         	cout << it << " ";
         }
         cout << endl;
@@ -23,7 +23,7 @@ void printSubsequences(vector<int> &subseq, int arr[], int n, int ind){
     printSubsequences(subseq, arr, n, ind+1);
 }
 
-int main(){
+int main() {
 	vector<int> sub;
     int n;
     cin >> n;
