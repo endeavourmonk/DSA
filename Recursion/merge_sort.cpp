@@ -2,6 +2,9 @@
 #include <vector>
 using namespace std;
 
+
+// TC: O(N log N)
+// SC: O(N)
 void merge(vector<int> &arr, int begin, int mid, int end) {
     int first = mid - begin + 1, second = end - mid;    // sizes of subarrays
     vector<int> firstArray(first), secondArray(second); 
@@ -47,7 +50,7 @@ int main() {
         cin >> it;
 
     merge_sort(arr, 0, n - 1);
-    
+
     for (auto it : arr)
         cout << it << " ";
 }
