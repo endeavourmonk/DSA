@@ -3,7 +3,7 @@
 using namespace std;
 
 // TC: O(N^2)
-void bubbleSort(vector<int> &arr, int n) {
+void recursiveBubbleSort(vector<int> &arr, int n) {
     if(n <= 1)
         return;
     // largest element is set to the last
@@ -11,7 +11,7 @@ void bubbleSort(vector<int> &arr, int n) {
         if(arr[i] > arr[i + 1])
             swap(arr[i], arr[i + 1]);
 
-    bubbleSort(arr, n - 1);
+    recursiveBubbleSort(arr, n - 1);
 }
 
 int main() {
@@ -20,7 +20,7 @@ int main() {
     vector<int> arr(n);
     for (int i = 0; i < n; ++i)
         cin >> arr[i];
-    bubbleSort(arr, n);
+    recursiveBubbleSort(arr, n);
     cout << "After Sorting:" << "\n";
     for (int i = 0; i < n; ++i)
         cout << arr[i] << " ";
