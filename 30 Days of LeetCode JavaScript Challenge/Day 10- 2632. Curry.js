@@ -1,17 +1,17 @@
-// function f(a) {
-//   return function (b) {
-//     return function (c) {
-//       console.log(a, b, c);
-//     };
-//   };
-// }
+function f(a) {
+  return function (b) {
+    return function (c) {
+      console.log(a, b, c);
+    };
+  };
+}
 
-// // f(1)(2)(3);
-// const res1 = f(1);
-// console.log("res1 = " + res1);
-// const res2 = res1(2);
-// console.log("res2 = " + res2)
-// res2(3)
+// f(1)(2)(3);
+const res1 = f(1);
+console.log("res1 = " + res1);
+const res2 = res1(2);
+console.log("res2 = " + res2);
+res2(3);
 
 // TC: O(N)
 // SC: O(N)
