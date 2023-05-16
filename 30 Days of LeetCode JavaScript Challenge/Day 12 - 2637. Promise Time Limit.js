@@ -5,6 +5,8 @@
  * @param {number} t
  * @return {Function}
  */
+// TC: O(1)
+// SC: O(1)
 var timeLimit = function (fn, t) {
   return async function (...args) {
     const f = fn(...args);
