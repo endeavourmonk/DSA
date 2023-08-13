@@ -1,30 +1,25 @@
 #include <iostream>
 
 using namespace std;
-class node
-{
+class node {
 public:
     int data;
     node *next;
 
-    node(int val)
-    {
+    node(int val) {
         data = val;
     }
 };
 
-void print(node *head)
-{
-    while (head)
-    {
+void print(node *head) {
+    while (head) {
         cout << head->data << " ";
         head = head->next;
     }
     cout << endl;
 }
 
-int main()
-{
+int main() {
     node *head = new node(1);
     node *second = new node(2);
     head->next = second;

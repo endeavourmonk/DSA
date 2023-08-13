@@ -40,21 +40,19 @@ void insertAtPosition(Node *&head, int data, int pos) {
         return;
     }
     for (int i = 1; i < pos - 1; ++i) {
-        if (!ptr) 
+        if (!ptr)
             return;
         ptr = ptr->next;
     }
     Node *temp = new Node(data);
     temp->next = ptr->next;
     ptr->next = temp;
-    
 }
 
-void deleteNodeByData(Node * &head, int data) {
-    if(!head) 
-        return; 
+void deleteNodeByData(Node *&head, int data) {
+    if (!head)
+        return;
     for (Node *it = head; it != NULL; it = it->next) {
-        
     }
 }
 

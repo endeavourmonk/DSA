@@ -5,11 +5,9 @@
 // TC: O(N)
 // SC: O(1)
 
-bool hasCycle(ListNode *head)
-{
+bool hasCycle(ListNode *head) {
     ListNode *fast = head, *slow = head;
-    while (fast && fast->next)
-    {
+    while (fast && fast->next) {
         fast = fast->next->next;
         slow = slow->next;
 

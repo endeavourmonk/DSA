@@ -8,28 +8,22 @@
 
 // TC: O(N)
 // SC: O(1)
-ListNode *removeElements(ListNode *head, int val)
-{
+ListNode *removeElements(ListNode *head, int val) {
     // leading values equal to val
-    while (head && (head->val == val))
-    {
+    while (head && (head->val == val)) {
         ListNode *tempNode = head;
         head = head->next;
         delete tempNode;
     }
 
     ListNode *prev = head, *curr = head;
-    while (curr)
-    {
-        if (curr->val == val)
-        {
+    while (curr) {
+        if (curr->val == val) {
             ListNode *tempNode = curr;
             prev->next = curr->next;
             curr = curr->next;
             delete tempNode;
-        }
-        else
-        {
+        } else {
             prev = curr;
             curr = curr->next;
         }

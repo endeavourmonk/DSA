@@ -6,20 +6,15 @@
 // SC: O(1)
 
 // Assuming multiple nodes with similar value exist
-void deleteNode(ListNode *node)
-{
-    while (node->next)
-    {
-        if (!node->next->next)
-        {
+void deleteNode(ListNode *node) {
+    while (node->next) {
+        if (!node->next->next) {
             node->val = node->next->val;
             ListNode *temp = node->next;
             node->next = nullptr;
             delete temp;
             return;
-        }
-        else
-        {
+        } else {
             node->val = node->next->val;
             node = node->next;
         }
@@ -29,8 +24,7 @@ void deleteNode(ListNode *node)
 // All nodes are unique
 // TC: O(1)
 // SC: O(1)
-void deleteNode(ListNode *node)
-{
+void deleteNode(ListNode *node) {
     ListNode *nextNode = node->next;
     node->val = nextNode->val;
     node->next = nextNode->next;

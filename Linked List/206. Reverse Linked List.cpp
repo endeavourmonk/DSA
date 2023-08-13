@@ -4,11 +4,9 @@
 
 // TC: O(N)
 // SC: O(1)
-ListNode *reverseList(ListNode *head)
-{
+ListNode *reverseList(ListNode *head) {
     ListNode *nextNode, *newHead = NULL;
-    while (head)
-    {
+    while (head) {
         nextNode = head->next;
         head->next = newHead;
         newHead = head;

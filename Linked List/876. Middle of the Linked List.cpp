@@ -5,8 +5,7 @@
 
 // TC: O(N)
 
-ListNode *middleNode(ListNode *head)
-{
+ListNode *middleNode(ListNode *head) {
     int ct = 0;
     for (ListNode *ptr = head; ptr != NULL; ptr = ptr->next)
         ct++;
@@ -22,11 +21,9 @@ ListNode *middleNode(ListNode *head)
 
 // TC: O(N)
 // SC: O(1)
-ListNode *middleNode(ListNode *head)
-{
+ListNode *middleNode(ListNode *head) {
     ListNode *fast = head, *slow = head;
-    while (fast != NULL && fast->next != NULL)
-    {
+    while (fast != NULL && fast->next != NULL) {
         fast = fast->next->next;
         slow = slow->next;
     }
