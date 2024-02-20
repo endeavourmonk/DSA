@@ -4,7 +4,6 @@ using namespace std;
 
 // TC: O(N^2)
 void InsertionSort(vector<int> &arr, int n) {
-    
 }
 
 int main() {
@@ -14,7 +13,8 @@ int main() {
     for (int i = 0; i < n; ++i)
         cin >> arr[i];
     InsertionSort(arr, n);
-    cout << "After Sorting:" << "\n";
+    cout << "After Sorting:"
+         << "\n";
     for (int i = 0; i < n; ++i)
         cout << arr[i] << " ";
 }

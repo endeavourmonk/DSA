@@ -1,0 +1,26 @@
+----------------------	Primes	-----------------------------------
+* [product of three numbers](https://codeforces.com/problemset/problem/1294/C)
+* [Kth prime](https://www.spoj.com/problems/TDKPRIME/)
+
+----------------------	seive	------------------------------------
+
+* [Number Theory](https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-2/practice-problems/algorithm/hacker-with-prime-bebe28ac/)
+* [Monk and divisor conundrum](https://www.hackerearth.com/problem/algorithm/monk-and-divisor-conundrum-56e0eb99/)
+* [count primes](https://leetcode.com/problems/count-primes/)
+* [CF 230-B](https://codeforces.com/problemset/problem/230/B)
+* [CF 776-B](https://codeforces.com/contest/776/problem/B)
+* [Number Theory](https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-2/practice-problems/)
+* [PRIME1 - prime Generator](https://www.spoj.com/problems/PRIME1/)
+* [TDPRIMES - Printing some primes](https://www.spoj.com/problems/TDPRIMES/)
+* [PRIMES2 - Printing some primes (Hard)](https://www.spoj.com/problems/PRIMES2/)
+* [BSPRIME - Binary Sequence of Prime Number](https://www.spoj.com/problems/BSPRIME/)
+* [NFACTOR - N-Factorful](https://www.spoj.com/problems/NFACTOR/)
+* [HS08PAUL - A conjecture of Paul Erdős](https://www.spoj.com/problems/HS08PAUL/)
+* [PTRI - primes triangle (I)](https://www.spoj.com/problems/PTRI/)
+* [NGIRL - Namit In Trouble](https://www.spoj.com/problems/NGIRL/)
+* [DCEPC505 - Bazinga!](https://www.spoj.com/problems/DCEPC505/)
+* [Project Euler #134: Prime pair connection](https://www.hackerrank.com/contests/projecteuler/challenges/euler134/problem)
+* [A. Almost Prime](https://codeforces.com/contest/26/problem/A)
+* [B. Sherlock and his girlfriend](https://codeforces.com/contest/776/problem/B)
+* [A. Noldbach problem](https://codeforces.com/problemset/problem/17/A)
+* [B. Colliders](https://codeforces.com/problemset/problem/154/B)
